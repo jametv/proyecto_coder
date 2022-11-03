@@ -12,7 +12,7 @@
 <body>
     <!-- Inicio Header -->
     <header id="Inicio" class="encabezado style="width: 100%;">
-         <div class="overlay"></div>
+         
          <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
              <a class="navbar-brand" href="#">
@@ -154,8 +154,8 @@
     </section>
     
     <!-- Sesión 5 (Formulario)-->
-    <section id="Contacto">
-        
+    <section id="Contacto" class="formulario">
+      <div class="overlay">
         <h5 class="f">Contacto</h5>
        
         <div class="container text-center">
@@ -177,7 +177,8 @@
           </div> 
 
              
-        <form action="php" method="POST">
+        <form action="php" method="POST"  >
+          
             <div>
                 <label for="nombre" class="form" >Nombre</label>
                 <input type="text" >
@@ -198,6 +199,8 @@
                 <input type="empresa" >
             </div>
 
+
+
             <div>
                 <label for="mensaje" class="form5">Mensaje  </label>
                 <textarea name="mensaje" id="mensaje" cols="500" rows="5"></textarea>
@@ -206,10 +209,12 @@
             <div>
                 <button>Enviar</button>
             </div>
-
-            <img src="imagenes/phone.jpg" width="1920" height="1039" alt="Contacto" class="imgcontacto">
+            
+            
 
         </form>
+      </div>
+
     </section>
 
     <!-- Footer -->

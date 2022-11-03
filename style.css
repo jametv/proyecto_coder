@@ -46,8 +46,6 @@ header .container {
 
   header .overlay {
     position: absolute;
-    top: 0;
-    left: 0;
     height: 100%;
     width: 100%;
     background-color: black;
@@ -107,9 +105,7 @@ h3{
 
 }
 
-h5{
-    
-}
+
 
 
 
@@ -234,3 +230,4 @@ footer{
 div{
     width: 100%;
 }
+
