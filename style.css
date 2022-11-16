@@ -165,69 +165,35 @@ color: white;
 /* contacto - Al igual que en la sesion anterior, el color de las letras es provisorio, mientras no pueda dejar de background el video*/
 
 .f{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .g{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
 
 }
 
-/* Agregué distintas clases en form, de forma provisoria, ya que no sé si debo distribuir de forma individual cada item a futuro*/
-.form{
-    color: #C1C1C1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-weight: bold
-}
-
-.form2{
-    color: #C1C1C1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-weight: bold
-}
-
-.form3{
-    color: #C1C1C1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-weight: bold
-}
-
-.form4{
-    color: #C1C1C1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-weight: bold
-}
-
-.form5{
-    color: #C1C1C1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-weight: bold
-}
-
-footer{
-    background-color: black;
-    color: #707070;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-weight: bold
+.contenedor{
     
-
+    background-image: url(imagenes/Contacto.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
 }
 
-.tamaño{
-    width: 100%;
+/* footer*/
+
+.piedepagina{
+    background-color: black;
 }
 
-div{
-    width: 100%;
+.h{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 10px;
 }
-
