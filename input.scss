@@ -1,0 +1,209 @@
+/* Estilos*/
+
+$letras-blancas: white;
+$letras-negras: black;
+$background-black: black;
+$background-naranja: #FFAE0D;
+
+.m{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-size: 60px;
+      font-style: normal;
+      text-align: center;
+      color: $letras-negras;
+  }
+  .c{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+      font-style: normal;
+      text-align: center;
+      color: $background-naranja;
+
+      
+  }
+  @media (max-width: 600px) {
+    aside {
+        display: none;
+    }
+}
+ 
+/* Fin Estilos*/
+
+/* Header*/
+
+header{
+  position: relative;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+
+ul.menu{
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+    color: $letras-blancas;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translate -50%, -50%;
+}
+
+header .container {
+    position: relative;
+    height: 100vh;
+  }
+
+  header .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: $background-black;
+    opacity: 0.5;
+    z-index: -3;
+    overflow: hidden;
+  }
+
+
+  /* Fin Header */
+  
+  /* Sesión 1*/
+  
+  span.sesiondos{
+      background-color: $background-naranja;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transform: translate -50%, -50%;
+  }
+  
+    
+  
+  
+  
+  h3{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      font-style: normal;
+      color: $background-naranja;
+  }
+  
+  .b{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: normal;
+      font-size: 20px;
+      font-style: normal;
+      color: $letras-negras;
+  
+  }
+  
+  
+  
+  
+  
+  
+  /* Sesion Video Banda */
+  
+
+
+  
+  .p{
+      background-color: $background-black;
+  }
+  
+  /* Nosotros*/
+  
+  .nosotros{
+      background-color: $background-naranja;
+      font-weight: normal;
+  }
+  
+  .tamaño{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  color: $letras-blancas
+  }
+  
+  .d{
+      color: $letras-blancas
+      
+  }
+  
+  .e{
+      color: $letras-blancas;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: normal;
+      font-size: 20px;
+      font-style: normal;
+  }
+  .rectangulo2{
+      background: $background-naranja;    
+      width: 1572px;           
+      height: 680px;     
+      
+    }
+  
+  /* fin nosotros*/
+  
+  /* contacto */
+
+  .f{
+      color: $letras-blancas;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 70px;
+  }
+  
+  .g{
+      color: $letras-blancas;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 25px;
+  
+  }
+  
+  .contenedor{
+      
+      background-image: url(imagenes/Contacto.jpg);
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-position:center center;
+  }
+  
+  /* footer*/
+  
+  .piedepagina{
+      background-color: $background-black;
+  }
+  
+  .h{
+      color: $letras-blancas;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: normal;
+      font-size: 10px;
+  }
+  
