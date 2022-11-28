@@ -71,34 +71,9 @@ header video {
     transform: translate -50%, -50%;
 }
 
-header .container {
-    position: relative;
-    height: 100vh;
-  }
-
-  header .overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: $background-black;
-    opacity: 0.5;
-    z-index: -3;
-    overflow: hidden;
-  }
-
-
   /* Fin Header */
   
   /* Sesión 1*/
-  
-  span.sesiondos{
-      background-color: $background-naranja;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      transform: translate -50%, -50%;
-  }
-  
     
   
   
@@ -139,16 +114,10 @@ header .container {
   .nosotros{
       background-color: $background-naranja;
       font-weight: normal;
+      width: 100%;
   }
   
-  .tamaño{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  text-align: center;
-  justify-content: center;
-  color: $letras-blancas
-  }
+  
   
   .d{
       color: $letras-blancas
@@ -162,12 +131,8 @@ header .container {
       font-size: 20px;
       font-style: normal;
   }
-  .rectangulo2{
-      background: $background-naranja;    
-      width: 1572px;           
-      height: 680px;     
-      
-    }
+  
+   
   
   /* fin nosotros*/
   
@@ -192,6 +157,7 @@ header .container {
       background-repeat:no-repeat;
       background-size:cover;
       background-position:center center;
+      width: 100%;
   }
   
   /* footer*/
@@ -207,3 +173,7 @@ header .container {
       font-size: 10px;
   }
   
+  html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
